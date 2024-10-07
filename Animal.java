@@ -7,22 +7,8 @@ public class Animal {
     }
 
     public Animal(String name) {
-        if(name.equals("pig"))
-        {
-            this.swim = false;
-            this.walk = true;
-        }
-        else if(name.equals("duck")) {
-            this.swim = true;
-            this.walk = true;
-        }
-        else if(name.equals("fish")) {
-            this.swim = true;
-            this.walk = false;
-        }
         this.name = name;
     }
-
     public boolean canSwim() {
         return this.swim;
     }
